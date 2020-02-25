@@ -16,13 +16,15 @@ int main()
     return 0;
 }
 //--
-void power(double base, int exp)
+double power(double base, int exp)
 {
-    int result = 1;
+    double result = 1;
     for(int i = 0;i < exp;i++)
     {
         result = result * base;
     }
 
     cout<<result<<endl;
+
+	return result;
 }

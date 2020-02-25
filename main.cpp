@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void power(double base, int exp);
+double power(double base, int exp);
 
 int main()
 {
